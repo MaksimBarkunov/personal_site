@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barkunov Maksim</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <h1>Maksim Barkunov</h1>
+        <ul class="navigation">
+            <li><a href="#about">Биография</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="header_wrapper">
+            <h1 class="header_title">
+                <strong>Привет, я<em> Максим</em></strong><br>
+                web разработчик
+            </h1>
+            <a href="#projects" class="btn">Проекты</a>
+        </div>
+    </header>
+
+    <!-- Person Section -->
+
+    <section class="person" id="about">
+        <h2 class="about-title">Биография</h2>
+        <!-- <p class="about-text">Привет, мне 16 лет. Я живу в восточной части Сибири в небольшом городе. Первый раз познакомился с программированием ещё в 2020 году, но мне не показалось это  настолько увлекательным моментом. В завершении 2022 года у меня проявился интерес и я начал самостоятельно изучать программирование выбрав в качестве изучения язык python, потому что он не сложный и отлично подходит для первого изучения в этой области. В середине 2023 года я изучил основы языка python и написал небольшие мини-игры. После мне этот язык показался скучным и я решил переключиться на web разработку. Изучил HTML,CSS и основы JavaScript. Благодаря web разработке я познакомился с Figma и GitHub</p> -->
+        <div class="about">
+            <p class="about-text">Привет, мне 16 лет. Я живу в восточной части Сибири в небольшом городе. Первый раз познакомился с программированием ещё в 2020 году, но мне не показалось это  настолько увлекательным моментом. В завершении 2022 года у меня проявился интерес и я начал самостоятельно изучать программирование выбрав в качестве изучения язык python, потому что он не сложный и отлично подходит для первого изучения в этой области. В середине 2023 года я изучил основы языка python и написал небольшие мини-игры. После мне этот язык показался скучным и я решил переключиться на web разработку. Изучил HTML,CSS и основы JavaScript. Благодаря web разработке я познакомился с Figma и GitHub</p>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+
+    <section class="skills" id="skills">
+        <h3 class="skills-header">Мои навыки</h3>
+        <div class="skills-wrapper">
+            <div class="skills-set">
+                <img src="./assets/icons/skills/html.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="./assets/icons/skills/css.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="./assets/icons/skills/javascript.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="./assets/icons/skills/python.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="skills-set">
+                <img src="./assets/icons/skills/git.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="./assets/icons/skills/Adobe Photoshop.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+                <img src="./assets/icons/skills/Figma.svg" alt="Иконка" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Project section -->
+
+    <section class="projects" id="projects">
+            <h3 class="projects-title">Проекты</h3>
+            <div class="projects-container">
+                <div class="project-container  project-card">
+                    <img src="./assets/images/calc.png" alt="проект калькулятор" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Калькулятор</h4>
+                    <p class="project-details">
+                        Обычный калькулятор на JavaScript. Можно делить,умножать,вычитать,складывать и тд.
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/food.png" alt="проект о еде" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Сайт о еде</h4>
+                    <p class="project-details">
+                        Мой тренировочный сайт, где я делал навигацию и изучал структуру
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/Сайт выпечки.png" alt="магазин выпечки" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Магазин выпечки</h4>
+                    <p class="project-details">
+                        Сайт где есть информация о еде, а также есть карта, где находится магазин
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+            </div>
+            <div class="projects-container">
+                <div class="project-container  project-card">
+                    <img src="./assets/images/Магазин часов.png" alt="магазин часов" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Сайт часов</h4>
+                    <p class="project-details">
+                        Можно посмотреть модели часов и сделать заказ на их приобретение.
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/coffee shop.png" alt="Сайт о кофе" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Coffee shop</h4>
+                    <p class="project-details">
+                        Большой сайт о кофе. Можно купить и выбрать разные виды кофе
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/Пользовательские данные.png" alt="Данные пользователя" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Login</h4>
+                    <p class="project-details">
+                        Обычный логин и пароль для пользователей. Есть кнопка для восстановления данных
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+            </div>
+            <div class="projects-container">
+                <div class="project-container  project-card">
+                    <img src="./assets/images/ПРЫГ-СКОК.png" alt="ПРЫГ-СКОК" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Jump game</h4>
+                    <p class="project-details">
+                        Цель игры заключается в том, чтобы отбить мяч от платформы и постараться продержаться как можно дольше
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/RPG_game.png" alt="РПГ игра" loading="lazy" class="project-pic">
+                    <h4 class="project-title">RPG game</h4>
+                    <p class="project-details">
+                        Что нужно для начала игры:Указать имя героя и его расу.
+                        Цель игры :
+                        Уничтожай врага и повышай свой уровень как можно больше
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+                <div class="project-container  project-card">
+                    <img src="./assets/images/tg.png" alt="telegram bot" loading="lazy" class="project-pic">
+                    <h4 class="project-title">Telegram bot</h4>
+                    <p class="project-details">
+                        Бот способен отвечать на запросы пользователей по команде.
+                        Commands:/start/info/обувь/нижняя_одежда/верхняя_одежда/пальто/костюм
+                    </p>
+                    <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank" class="project-link">Узнать больше</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+        <h4>Связаться со мной</h4>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="send-name" placeholder="Введите свое имя" class="input-field" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="send-email" placeholder="Введите свою почту" class="input-field" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="60" rows="10" placeholder="Введите свое сообщение" class="input-field" required></textarea>
+                    </div>
+                    <div class="form-control">
+                        <input type="submit" value="Отправить" id="submit-btn" class="submit-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <p class="copy">©BarkunovMaksim 2024.</p>
+        <p class="copy">Создатель<a href="https://github.com/MaksimBarkunov" target="_blank">Баркунов Максим</a></p>
+    </footer>
+
+    <!-- Social accounts -->
+
+    <div class="socials">
+        <a href="https://vk.com/barkunov_m" target="_blank">
+            <img src="assets/icons/social/vk-vkonakte.gif" alt="Vk" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.instagram.com/invites/contact/?i=45mgwlqn3n15&utm_content=dggq4of" target="_blank">
+            <img src="assets/icons/social/insta.gif" alt="Instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="https://discordapp.com/users/605390082354053120/" target="_blank">
+            <img src="assets/icons/social/discord.gif" alt="Discord" loading="lazy" class="socicon">
+        </a>
+        <a href="https://github.com/MaksimBarkunov?tab=overview&from=2024-02-01&to=2024-02-04" target="_blank">
+            <img src="assets/icons/social/github.gif" alt="GitHub" loading="lazy" class="socicon">
+        </a>
+    </div>
+
+    <!-- Scroll to top -->
+
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/иконка стрелки.gif" class="socicon up-arrow" alt="scroll-up">
+    </i>
+
+    <script src="assets/js/app.js"></script>
+    <!-- Ion icons scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+    
+</body>
+</html>
